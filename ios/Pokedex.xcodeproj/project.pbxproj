@@ -43,6 +43,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Pokedex/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88AEF8F5F2A66A1AE01D6C5D /* libPods-Pokedex-PokedexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pokedex-PokedexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F053BD65D8DF24BE7483E8 /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FE7641262FAA6B006B78AD /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Brands.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		E6FE7642262FAA6B006B78AD /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Regular.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E6FE7643262FAA6B006B78AD /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome5_Solid.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		E6FE7644262FAA6B006B78AD /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = FontAwesome.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -116,6 +120,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				E6FE7640262FAA35006B78AD /* Fonts */,
 				13B07FAE1A68108700A75B9A /* Pokedex */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* PokedexTests */,
@@ -145,8 +150,18 @@
 				007A56186B9392587ED10233 /* Pods-Pokedex-PokedexTests.debug.xcconfig */,
 				4157DC234C256E18872B5BE1 /* Pods-Pokedex-PokedexTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6FE7640262FAA35006B78AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E6FE7644262FAA6B006B78AD /* FontAwesome.ttf */,
+				E6FE7641262FAA6B006B78AD /* FontAwesome5_Brands.ttf */,
+				E6FE7642262FAA6B006B78AD /* FontAwesome5_Regular.ttf */,
+				E6FE7643262FAA6B006B78AD /* FontAwesome5_Solid.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
