@@ -50,7 +50,7 @@ export const PokemonCard = ({ pokemon }: Props) => {
     >
       <View style={{
         ...styles.cardContainer,
-        width: windowsWidth * 0.4,
+        width: windowsWidth * 0.38,
         backgroundColor: bgColor,
       }}>
 

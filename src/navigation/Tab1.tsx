@@ -14,14 +14,15 @@ export type RootStackParams = {
 
 const Stack = createStackNavigator<RootStackParams>();
 
-export const StackNavigator = () => {
+export const Tab1 = () => {
   return (
-    <Stack.Navigator screenOptions={{
-      headerShown: false,
-      cardStyle: {
-        backgroundColor: 'white',
-      },
-    }}>
+    <Stack.Navigator
+      screenOptions={{
+        headerShown: false,
+        cardStyle: {
+          backgroundColor: 'white',
+        },
+      }}>
       <Stack.Screen name={'HomeScreen'} component={HomeScreen} />
       <Stack.Screen name={'PokemonScreen'} component={PokemonScreen} />
     </Stack.Navigator>

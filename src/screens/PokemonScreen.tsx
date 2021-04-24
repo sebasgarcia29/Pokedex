@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import { StackScreenProps } from '@react-navigation/stack';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import { RootStackParams } from '../navigation/StackNavigator';
+import { RootStackParams } from '../navigation/Tab1';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { FadeInImage } from '../components/FadeInImage';
 import { usePokemon } from '../hooks/usePokemon';
@@ -37,13 +37,13 @@ export const PokemonScreen = ({ route, navigation }: Props) => {
             ...styles.backButton,
             top: top + 10,
           }}
-          onPress={() => navigation.popToTop()}
+          onPress={() => navigation.goBack()}
         >
           <Icon name={'arrow-circle-left'} size={35} color={'white'} />
         </TouchableOpacity>
 
         {/* Name Pokemon */}
-        <Text style={{ ...styles.pokemonName, top: top + 45, }}>
+        <Text style={{ ...styles.pokemonName, top: top + 45 }}>
           {name + '\n'} # {id}
         </Text>
 
